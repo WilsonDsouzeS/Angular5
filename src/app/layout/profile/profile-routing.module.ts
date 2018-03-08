@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { BlankPageComponent } from './blank-page.component';
+import { ProfileComponent } from './profile.component';
 
 const routes: Routes = [
     {
         path: '',
-        component: BlankPageComponent
+        component: ProfileComponent
     }
 ];
 
@@ -13,4 +13,4 @@ const routes: Routes = [
     imports: [RouterModule.forChild(routes)],
     exports: [RouterModule]
 })
-export class BlankPageRoutingModule {}
+export class ProfileeRoutingModule {}
